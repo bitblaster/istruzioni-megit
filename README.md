@@ -22,12 +22,14 @@ Scegliere la JRE 11 adatta al nostro sistema operativo (nota: i sistemi più dif
 * Mac x64: https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.10%2B9/OpenJDK11U-jre_x64_windows_hotspot_11.0.10_9.zip
 
 Scompattare il contenuto dentro **_\<MeGit_DIR\>_** e rinominarlo in modo che si chiami **jdk11**. Verificare che all'interno siano subito presenti le directory **bin**, **conf**, ecc., come nell'immagine seguente:
+
 ![struct jdk](/images/struct_jdk.png)
 
 Scaricare quindi MeGit, anche qui scegliendo la versione adatta alla propria piattaforma:
 https://github.com/eclipsesource/megit/releases/tag/v0.0.2
 
 Scompattare anche questo archivio dentro **_\<MeGit_DIR\>_**, in modo che la struttura finale sia simile all'immagine seguente:
+
 ![struct full](/images/struct_full.png)
 
 Modificare con un editor di testo il file megit.ini e inserire all'inizio le seguenti righe:
